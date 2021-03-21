@@ -36,7 +36,7 @@ namespace Config
   int const sdlRendDriverIndex = -1;     // driver index (-1 = first found)
 
   int const dimX = 800;                    // width (px)
-  int const dimY = 600;                    // height (px)
+  int const dimY = 800;                    // height (px)
   int const posX = SDL_WINDOWPOS_CENTERED; // left edge (or centered)
   int const posY = SDL_WINDOWPOS_CENTERED; // top edge (or centered)
   string const title = "Wingine";          // window title

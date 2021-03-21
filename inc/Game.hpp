@@ -4,6 +4,8 @@
 #include "SDL.h"
 #include "Shape.hpp"
 #include "Wingine.hpp"
+#include "Chain.hpp"
+#include "RectIn.hpp"
 
 class Game
 {
@@ -30,5 +32,5 @@ private:
   Wingine wingine;
   SDL_Window *pWindow;
   SDL_Renderer *pRenderer;
-  std::vector<Shape *> shapes;
+  Chain<RectIn> rainbow;
 };
